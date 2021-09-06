@@ -1,0 +1,16 @@
+{
+	"database": {
+		"rules": "n"
+	},
+	"hosting": {
+		"site": "globe-mtf",
+		"public": "globe-mtf",
+		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+		"rewrites": [
+			{
+				"source": "**",
+				"destination": "/index.html"
+			}
+		]
+	}
+}
